@@ -39,6 +39,6 @@ export function getBirthdayInvitees(phone_contacts, call_history) {
       }
     }
   }
-
+  console.log(invitees, "********");
   return invitees;
 }
