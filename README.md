@@ -8,8 +8,6 @@ This interview tests candidates on:
 1. **Algorithm Analysis & Optimization** - Identifying performance issues and optimizing nested loops
 2. **React Development** - Building interactive UI with state management, async operations, and UX considerations
 
-**Duration:** 45-60 minutes  
-**Target:** Frontend Engineers with 2-3 years experience
 
 ## 📁 Structure
 
@@ -45,15 +43,6 @@ Birthday-Invitees/
    ```
    The app will run at `http://localhost:5173/`
 
-2. **Review before interview:**
-   - Read `INTERVIEWER_GUIDE.md` for complete instructions
-   - Check `SOLUTION.jsx` for reference implementation
-   - Print or open `EVALUATION_RUBRIC.md` for scoring
-
-3. **During interview:**
-   - **Part A (25-30 min):** Algorithm review using `src/birthdayInvitees.js`
-   - **Part B (15 min):** React implementation in `src/components/BirthdayInvitees.jsx`
-
 ### For Candidates
 
 If you're a candidate, you should receive:
@@ -74,8 +63,6 @@ Review and optimize the `print_birthday_invitees` function that finds people who
 4. Rewrite it to be more optimized
 5. What's the new complexity?
 
-**Key Learning:** Can the candidate identify and fix O(n²×m) → O(n+m) optimization?
-
 ### Part B: React Implementation (15 minutes)
 
 Build an interactive UI to display and send birthday invitations.
@@ -86,47 +73,6 @@ Build an interactive UI to display and send birthday invitations.
 - Send invitations via mock API
 - Handle loading and error states
 
-**Key Learning:** State management, async operations, UX patterns
-
-## 🎓 What We're Testing
-
-### Technical Skills
-- Algorithm optimization
-- Big O analysis
-- React hooks (useState)
-- Async/await handling
-- State management
-- Component structure
-
-### Soft Skills
-- Communication & explanation
-- Problem-solving approach
-- Time management
-- Debugging skills
-- Asking clarifying questions
-
-## 📊 Evaluation
-
-Use `EVALUATION_RUBRIC.md` for structured scoring:
-- Part A (Algorithm): 40 points
-- Part B (React): 60 points
-- Bonus: 10 points
-- **Total: 110 points** (scaled to 100)
-
-**Scoring Guide:**
-- 90-100: Strong hire
-- 80-89: Hire
-- 70-79: Maybe
-- 60-69: Weak
-- <60: No hire
-
-## 💡 Tips for Success
-
-**For Interviewers:**
-- Review the `INTERVIEWER_GUIDE.md` thoroughly
-- Let candidates think before giving hints
-- Focus on thought process over perfect syntax
-- Take detailed notes on the rubric
 
 **For Candidates:**
 - Ask clarifying questions
